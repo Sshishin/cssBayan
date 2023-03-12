@@ -14,7 +14,7 @@ body {
 
 .accordion {
     background-color: aliceblue;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     padding: 2% 8%;
 }
@@ -26,15 +26,37 @@ body {
     padding: 2%;
 }
 
-.accordion-item__img-1 {
-    width: 80%;
+.accordion-item__img {
+    width: 60%;
     display: none;
     margin: 0 auto;
     padding: 2% 0;
 }
 
-.accordion-item:hover .accordion-item__img-1 {
+.accordion-item:hover .accordion-item__img {
     display: block;
+}
+
+.accordion-item:hover .accordion-item__title {
+    color: black;
+}
+
+.accordion:hover .accordion-item__title-icon {
+    background-image: url(/img/icons8-плюс-24.png);
+    height: 3vh;
+    width: 3vw;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.accordion-item:hover .accordion-item__title-icon {
+    background-image: url(/img/icons8-удалить-24.png);
+    height: 3vh;
+    width: 3vw;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .accordion-header {
@@ -44,6 +66,14 @@ body {
 .accordion-item__title {
     display: flex;
     justify-content: space-between;
+    color: blue
 }
+
+.accordion-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 
