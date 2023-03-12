@@ -57,10 +57,6 @@ body {
     transition: all ease-in-out 0.2s;
 }
 
-.accordion-item:hover .accordion-item__title {
-    
-}
-
 .accordion-item__title-icon {
     display: block;
     opacity: 0;
